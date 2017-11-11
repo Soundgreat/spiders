@@ -7,14 +7,14 @@
 import json,time
 
 class JsonWriterPipeline(object):
-
+    items = []
     def open_spider(self, spider):
         self.file = open('{}{}.json'.format(spider.name,time.strftime("%H-%M-%S", time.localtime())),'w',encoding='utf-8')
 
     def close_spider(self, spider):
-        json.dump(spider.items,fp=self.file,ensure_ascii=False,sort_keys=True,indent=4,separators=(',',':'))
+        json.dump(self.items,fp=self.file,ensure_ascii=False,sort_keys=False,indent=4,separators=(',',':'))
         self.file.close()
 
     def process_item(self, item, spider):
-    	spider.items.append(dict(item))
-    	return item
+        self.items.append(dict(item))
+        return item

@@ -7,17 +7,33 @@
 
 import scrapy
 
-class GCourse(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
+class Course(scrapy.Item):
     id=scrapy.Field()
-    url=scrapy.Field()
     name=scrapy.Field()
+    schoolId=scrapy.Field()
     school=scrapy.Field()
     students=scrapy.Field()
-    #last_updated = scrapy.Field(serializer=str)
+    followers=scrapy.Field()
+    replies=scrapy.Field()
+    posts=scrapy.Field()
+    articles=scrapy.Field()
+    certification=scrapy.Field()
+    url=scrapy.Field()
+    title=scrapy.Field()
+    scoreAverage=scrapy.Field()
+    scorePeople=scrapy.Field()
+    talentUrl=scrapy.Field()
 
-class WCourse(scrapy.Item):
-	name=scrapy.Field()
-	category=scrapy.Field()
-	url=scrapy.Field()
+class Talent(scrapy.Item):
+    id=scrapy.Field()
+    certificates=scrapy.Field()
+    coursesFoused=scrapy.Field()
+    coursesFousedList=scrapy.Field()
+    coursesLearned=scrapy.Field()
+    coursesLearnedList=scrapy.Field()
+    commentsList=scrapy.Field()
+    comments=scrapy.Field()
+    notes=scrapy.Field()
+    discussions=scrapy.Field()
+    collections=scrapy.Field()
+    education=scrapy.Field()
