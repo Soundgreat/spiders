@@ -2,7 +2,7 @@ import scrapy,json
 from spiders.items import Course
 
 class CourseSpider(scrapy.Spider):
-    name='course'
+    name='coursespider'
     limit=20
     currentpage=0
     domain='http://mooc.guokr.com'

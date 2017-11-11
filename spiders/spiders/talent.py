@@ -2,12 +2,12 @@ import scrapy, json, os
 from spiders.items import Talent
 
 class TalentSpider(scrapy.Spider):
-    name='talent'
+    name='talentspider'
     domain = 'http://mooc.guokr.com'
     urls = []
-    def __init__(self, coursesList='courses.json', *args, **kwargs):
+    def __init__(self, courselist='courses.json', *args, **kwargs):
         super(TalentSpider, self).__init__(*args, **kwargs)
-        filepath = os.path.abspath(__file__ + "/../../../" + coursesList)
+        filepath = os.path.abspath(__file__ + "/../../../" + courselist)
         with open(filepath, 'rb') as file:
             self.coursesList = json.load(file)
         for i in range(0,len(self.coursesList)):
