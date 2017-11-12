@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a7d3e35-2a4d-4b0b-8603-4af6f80f2dc3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/preferred-vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/courses.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spiders/items.py" afterPath="$PROJECT_DIR$/spiders/items.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spiders/pipelines.py" afterPath="$PROJECT_DIR$/spiders/pipelines.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spiders/settings.py" afterPath="$PROJECT_DIR$/spiders/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spiders/spiders/course.py" afterPath="$PROJECT_DIR$/spiders/spiders/course.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spiders/spiders/talent.py" afterPath="$PROJECT_DIR$/spiders/spiders/student.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/talents.json" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -343,13 +335,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/talents.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5712">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spiders/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-240">
@@ -406,6 +391,14 @@
     <entry file="file://$PROJECT_DIR$/data/students10-31-59.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/talents.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
