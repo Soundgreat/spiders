@@ -24,7 +24,7 @@ class Course(scrapy.Item):
     scorePeople=scrapy.Field()
     talentUrl=scrapy.Field()
 
-class Talent(scrapy.Item):
+class Student(scrapy.Item):
     id=scrapy.Field()
     certificates=scrapy.Field()
     coursesFoused=scrapy.Field()

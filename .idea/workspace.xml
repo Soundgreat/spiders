@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a7d3e35-2a4d-4b0b-8603-4af6f80f2dc3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/preferred-vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/courses.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spiders/items.py" afterPath="$PROJECT_DIR$/spiders/items.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spiders/pipelines.py" afterPath="$PROJECT_DIR$/spiders/pipelines.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spiders/settings.py" afterPath="$PROJECT_DIR$/spiders/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spiders/spiders/course.py" afterPath="$PROJECT_DIR$/spiders/spiders/course.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spiders/spiders/talent.py" afterPath="$PROJECT_DIR$/spiders/spiders/student.py" />
     </list>
+    <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,34 +24,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="course.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spiders/spiders/course.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-65">
-              <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="talent.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spiders/spiders/talent.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="13" column="56" lean-forward="true" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="144">
+                <caret line="9" column="53" lean-forward="false" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="students.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/students.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="9" lean-forward="true" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -76,10 +76,15 @@
         <option value="$PROJECT_DIR$/gm14-58-19.json" />
         <option value="$PROJECT_DIR$/spiders/spiders/jsonreader.py" />
         <option value="$PROJECT_DIR$/spiders/spiders/gmooc.py" />
-        <option value="$PROJECT_DIR$/spiders/pipelines.py" />
-        <option value="$PROJECT_DIR$/spiders/items.py" />
-        <option value="$PROJECT_DIR$/spiders/spiders/course.py" />
+        <option value="$PROJECT_DIR$/spiders/spiders/p.py" />
         <option value="$PROJECT_DIR$/spiders/spiders/talent.py" />
+        <option value="$PROJECT_DIR$/spiders/items.py" />
+        <option value="$PROJECT_DIR$/coursespider22-20-08.json" />
+        <option value="$PROJECT_DIR$/spiders/spiders/course.py" />
+        <option value="$PROJECT_DIR$/spiders/spiders/student.py" />
+        <option value="$PROJECT_DIR$/spiders/spiders/file.py" />
+        <option value="$PROJECT_DIR$/spiders/path.py" />
+        <option value="$PROJECT_DIR$/spiders/pipelines.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -116,6 +121,11 @@
             <path>
               <item name="spiders" type="b2602c69:ProjectViewProjectNode" />
               <item name="spiders" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spiders" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
               <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -147,7 +157,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.jsonreader">
+  <component name="RunManager" selected="Python.path">
+    <configuration name="file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spiders/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="spiders" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spiders/spiders/file.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="jsonreader" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,9 +192,52 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="p" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spiders/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="spiders" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spiders/spiders/p.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="path" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="spiders" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spiders/path.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Python.jsonreader" />
+      <item index="1" class="java.lang.String" itemvalue="Python.p" />
+      <item index="2" class="java.lang.String" itemvalue="Python.file" />
+      <item index="3" class="java.lang.String" itemvalue="Python.path" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.jsonreader" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.path" />
+        <item index="1" class="java.lang.String" itemvalue="Python.file" />
+        <item index="2" class="java.lang.String" itemvalue="Python.p" />
+        <item index="3" class="java.lang.String" itemvalue="Python.jsonreader" />
       </list>
     </recent_temporary>
   </component>
@@ -191,17 +261,21 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24450952" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="SFDX" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13946587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="512" y="47" width="341" height="674" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19436201" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24450952" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="512" y="47" width="341" height="674" />
+      <window_info id="Log Manager" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -221,19 +295,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gm14-14-50.json" />
-    <entry file="file://$PROJECT_DIR$/gm14-16-46.json" />
-    <entry file="file://$PROJECT_DIR$/gm14-17-57.json" />
-    <entry file="file://$PROJECT_DIR$/gm14-40-37.json" />
-    <entry file="file://$PROJECT_DIR$/gm14-41-46.json" />
-    <entry file="file://$PROJECT_DIR$/gm14-42-17.json" />
-    <entry file="file://$PROJECT_DIR$/gm14-46-38.json" />
-    <entry file="file://$PROJECT_DIR$/gm14-53-07.json" />
-    <entry file="file://$PROJECT_DIR$/gm14-56-56.json" />
-    <entry file="file://$PROJECT_DIR$/gm14-58-19.json" />
-    <entry file="file://$PROJECT_DIR$/gm14-59-01.json" />
-    <entry file="file://$PROJECT_DIR$/gm14-59-28.json" />
-    <entry file="file://$PROJECT_DIR$/gm15-01-28.json" />
     <entry file="file://$PROJECT_DIR$/wm16-41-55.json" />
     <entry file="file://$PROJECT_DIR$/gm15-02-07.json" />
     <entry file="file://$PROJECT_DIR$/gm15-09-47.json" />
@@ -260,92 +321,110 @@
     <entry file="file://$PROJECT_DIR$/cu19-03-26.json" />
     <entry file="file://$PROJECT_DIR$/cu19-23-07.json" />
     <entry file="file://$PROJECT_DIR$/tl19-36-11.json" />
-    <entry file="file://$PROJECT_DIR$/tl19-38-27.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tl19-38-27.json" />
     <entry file="file://$PROJECT_DIR$/courseold.json" />
-    <entry file="file://$PROJECT_DIR$/courses.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-413601">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/talent19-51-12.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/talent19-50-23.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/talent19-55-09.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8415">
-          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/talent19-56-30.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/courses.json" />
+    <entry file="file://$PROJECT_DIR$/talent19-51-12.json" />
+    <entry file="file://$PROJECT_DIR$/talent19-50-23.json" />
+    <entry file="file://$PROJECT_DIR$/talent19-55-09.json" />
+    <entry file="file://$PROJECT_DIR$/talent19-56-30.json" />
+    <entry file="file://$PROJECT_DIR$/spiders/spiders/p.py" />
     <entry file="file://$PROJECT_DIR$/spiders/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="396">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/talents.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5712">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spiders/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coursespider22-08-18.json" />
+    <entry file="file://$PROJECT_DIR$/coursespider22-20-08.json" />
+    <entry file="file://$PROJECT_DIR$/data/jj.json" />
+    <entry file="file://$PROJECT_DIR$/data/j.json" />
+    <entry file="file://$PROJECT_DIR$/spiders/path.py" />
+    <entry file="file://$PROJECT_DIR$/spiders/spiders/file.py" />
     <entry file="file://$PROJECT_DIR$/spiders/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        <state relative-caret-position="320">
+          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spiders/spiders/course.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65">
-          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        <state relative-caret-position="-369">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spiders/spiders/talent.py">
+    <entry file="file://$PROJECT_DIR$/spiders/spiders/student.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="56" lean-forward="true" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="63">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/courses.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-512">
+          <caret line="145" column="5" lean-forward="true" selection-start-line="145" selection-start-column="5" selection-end-line="145" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/students.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/students10-31-59.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="9" lean-forward="true" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="144">
+            <caret line="9" column="53" lean-forward="false" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

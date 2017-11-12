@@ -2,11 +2,11 @@ import scrapy,json
 from spiders.items import Course
 
 class CourseSpider(scrapy.Spider):
-    name='coursespider'
-    limit=20
+    name='courses'
+    limit=16
     currentpage=0
-    domain='http://mooc.guokr.com'
-    params='/apis/academy/course_list.json?order=grading&retrieve_type=by_params&limit=%s&offset=%s'
+    domain='https://mooc.guokr.com'
+    params='/apis/academy/course_list.json?order=grading&retrieve_type=by_params&limit=%d&offset=%d'
     base_url=domain+params
     def start_requests(self):
         urls = [
