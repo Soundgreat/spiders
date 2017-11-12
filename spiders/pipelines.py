@@ -9,11 +9,11 @@ import json, time, os
 class JsonWriterPipeline(object):
     items = []
     def open_spider(self, spider):
-        filename='{}{}.json'.format(spider.name,time.strftime("%H-%M-%S", time.localtime()))
+        filename = '{}{}.json'.format(spider.name,time.strftime("%H-%M-%S", time.localtime()))
         datafolder = os.path.abspath(__file__ + '/../../data')
         if not os.path.exists(datafolder):
             os.makedirs(datafolder)
-        filepath= os.path.join(datafolder, filename)
+        filepath = os.path.join(datafolder, filename)
         self.file = open(filepath,'w',encoding='utf-8')
 
     def close_spider(self, spider):

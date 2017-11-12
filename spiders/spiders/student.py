@@ -2,7 +2,7 @@ import scrapy, json, os
 from spiders.items import Student
 
 class StudentSpider(scrapy.Spider):
-    name='students'
+    name = 'students'
     domain = 'https://mooc.guokr.com'
     coursesList = []
     urls = []
@@ -72,11 +72,11 @@ class StudentSpider(scrapy.Spider):
         yield scrapy.Request(url=commentsListUrl,callback=self.parse_commentsList, meta={'item': item})
 
     def parse_commentsList(self, response):
-        item=response.meta['item']
+        item = response.meta['item']
         item['commentsList']=[]
-        commentsList=response.css('div.comment_box ul.comment_list li')
+        commentsList = response.css('div.comment_box ul.comment_list li')
         for i in range(0,len(commentsList)):
-            cmtCourseUrl=response.css('div.comment_box ul.comment_list li')[i].css('div.cmt-course a::attr(href)').extract_first()
-            cmtSum=response.css('div.comment_box ul.comment_list li')[i].css('p.cmt-content::text').extract_first()
+            cmtCourseUrl = response.css('div.comment_box ul.comment_list li')[i].css('div.cmt-course a::attr(href)').extract_first()
+            cmtSum = response.css('div.comment_box ul.comment_list li')[i].css('p.cmt-content::text').extract_first()
             item['commentsList'].append({'cmtCourseUrl': cmtCourseUrl,'cmtSum': cmtSum})
         yield item
